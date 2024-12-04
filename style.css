@@ -1,0 +1,74 @@
+/* Header Section */
+header {
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+/* Course Info Section */
+.course-info {
+    background: #f1f1f1;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 20px auto;
+    width: 80%;
+}
+
+.course-info ul {
+    margin: 10px 0;
+    padding: 0 20px;
+}
+
+.subscribe-btn {
+    display: block;
+    margin: 20px auto;
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.subscribe-btn:hover {
+    background: #0056b3;
+}
+
+/* Reviews Section */
+.reviews, .book-reviews {
+    margin: 20px auto;
+    width: 80%;
+    padding: 20px;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.reviews h2, .book-reviews h2 {
+    margin-bottom: 10px;
+}
+
+blockquote {
+    font-style: italic;
+    margin: 10px 0;
+    padding: 10px;
+    background: #f9f9f9;
+    border-left: 4px solid #007bff;
+}
+
+cite {
+    display: block;
+    text-align: right;
+    margin-top: 5px;
+    color: #555;
+}

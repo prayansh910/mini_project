@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subscription Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>UPSC Online Education Platform</h1>
+        <p>Learn from the best resources, completely free or with exclusive premium access!</p>
+    </header>
+
+    <main>
+        <!-- Course Details -->
+        <section class="course-info">
+            <h2>Why Subscribe?</h2>
+            <p>Gain access to the following resources:</p>
+            <ul>
+                <li>Comprehensive study notes</li>
+                <li>Suggested books and reading materials</li>
+                <li>Interactive video lectures</li>
+                <li>Mock tests and evaluation</li>
+                <li>Exclusive webinars with toppers</li>
+            </ul>
+            <p><strong>Special Offer:</strong> Free access to selected courses for all users!</p>
+            <button class="subscribe-btn">Subscribe Now</button>
+        </section>
+
+        <!-- Topper Reviews -->
+        <section class="reviews">
+            <h2>Topper Reviews</h2>
+            <blockquote>
+                <p>"This platform was my go-to resource for UPSC preparation. The notes and mock tests are outstanding!"</p>
+                <cite>- Priya Singh, UPSC Topper 2022</cite>
+            </blockquote>
+            <blockquote>
+                <p>"Affordable, comprehensive, and easy to use. Highly recommended for every UPSC aspirant."</p>
+                <cite>- Ankit Sharma, UPSC Topper 2021</cite>
+            </blockquote>
+        </section>
+
+        <!-- Book Reviews -->
+        <section class="book-reviews">
+            <h2>Recommended Books</h2>
+            <ul>
+                <li><strong>Indian Polity by M. Laxmikanth:</strong> "Essential for prelims and mains." - Aspirants</li>
+                <li><strong>History of Modern India by Bipan Chandra:</strong> "Covers all key events with clarity."</li>
+                <li><strong>Geography of India by Majid Husain:</strong> "Perfect for both prelims and mains."</li>
+            </ul>
+        </section>
+    </main>
+
+    <!-- Chatbot Integration -->
+    <div class="chat-container">
+        <button class="chat-icon" onclick="toggleChat()">💬</button>
+        <div class="chat-popup" id="chatPopup">
+            <div class="chat-header">
+                <h2>Chatbot</h2>
+                <button class="close-btn" onclick="toggleChat()">✖</button>
+            </div>
+            <div class="chat-body" id="chatBody">
+                <div class="message bot">Hello! How can I help you today?</div>
+                <div class="message bot clickable" onclick="sendPredefinedMessage('hours')">What are your hours of operation?</div>
+                <div class="message bot clickable" onclick="sendPredefinedMessage('contact support')">How can I contact support?</div>
+                <div class="message bot clickable" onclick="sendPredefinedMessage('services')">Where can I find your services?</div>
+                <div class="message bot clickable" onclick="sendPredefinedMessage('location')">Where is your office located?</div>
+                <div class="message bot clickable" onclick="sendPredefinedMessage('products')">What products do you offer?</div>
+            </div>
+            <textarea placeholder="Type your message..." id="userInput"></textarea>
+            <button onclick="sendMessage()">Send</button>
+        </div>
+    </div>
+
+    <script src="chatbot.js"></script>
+</body>
+</html>
