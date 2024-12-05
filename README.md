@@ -1,5 +1,5 @@
 # This is our first project as a team.
-# Team mambers includes:
+# Team members includes:
 -> Vartika Rai
 -> Shanvi Chaurasia
 -> Prayansh Gupta
