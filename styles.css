@@ -52,7 +52,7 @@ button:hover {
     background-color: #0056b3;
 }
 
-/* Chatbot Styles */
+/* Chatbot Styles 
 .chat-container {
     position: fixed;
     bottom: 20px;
@@ -101,4 +101,4 @@ button:hover {
 
 .clickable:active {
     transform: scale(0.95);
-}
+} */
